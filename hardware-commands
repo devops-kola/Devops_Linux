@@ -1,0 +1,12 @@
+lscpu Displays CPU architecture information.
+lsblk -a Lists all block devices, including empty devices.
+free Displays physical and swap-memory usage.
+free -m Displays memory usage in mebibytes.
+df Reports filesystem disk-space usage.
+df -h Reports filesystem usage in human-readable units.
+du filename Shows disk usage for a file; recursively summarizes a directory.
+du -sh filename Shows only the human-readable total disk usage.
+cat /proc/cpuinfo Displays detailed CPU information exposed by the kernel.
+cat /proc/meminfo Displays detailed memory information exposed by the kernel.
+sudo fdisk -l Lists detected disks and their partition tables.
+fdisk -s /dev/partition Displays a partition size in blocks on systems that support this legacy option.
